@@ -4,10 +4,10 @@ function konamiCodeHandler(e) {
   console.log(index)
   var key = e.which
   console.log(code)
-  console.log(key)
+  console.log("KeyPress: " + key)
   
   if (key === code[index]) {
-    console.log(index)
+    console.log("Index: " + index)
     
     if (index === (code.length)) {
       alert("Hurray")
