@@ -5,6 +5,8 @@ function konamiCodeHandler(e) {
   console.log(code)
   console.log("KeyPress: " + key)
   
+
+  
   if (key === code[index]) {
     console.log("Index: " + index)
     
