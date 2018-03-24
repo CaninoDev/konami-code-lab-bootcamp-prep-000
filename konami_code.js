@@ -27,3 +27,4 @@ function konamiCodeHandler(e) {
 function init() {
   document.body.addEventListener("keydown", konamiCodeHandler)
 }
+httpserv
