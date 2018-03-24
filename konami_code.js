@@ -9,7 +9,7 @@ function konamiCodeHandler(e) {
     console.log("Index: " + index)
     
     if (index === (code.length - 1)) {
-      alert("Hurray")
+      window.alert("Hurray")
       index = 0
     }
     index++
