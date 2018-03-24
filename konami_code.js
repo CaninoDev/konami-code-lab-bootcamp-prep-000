@@ -1,7 +1,7 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 var index = 0
 function konamiCodeHandler(e) { 
-  var key = e.code
+  var key = e.keyCode
   console.log(code)
   console.log("KeyPress: " + key)
   
