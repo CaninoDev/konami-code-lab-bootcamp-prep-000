@@ -3,7 +3,7 @@ var index = 0
 
 function init() {
   document.body.addEventListener("keydown", function(e) { 
-  var key = e.which
+  var key = e.keyCode
   console.log(code)
   console.log("KeyPress: " + parseInt(key))
   
