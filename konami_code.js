@@ -5,10 +5,6 @@ function konamiCodeHandler(e) {
   console.log(code)
   console.log("KeyPress: " + key)
   
-  if(key === 16) { // Ignore the shift key
-    e.preventDefault()
-  }
-  
   if (key === code[index]) {
     console.log("Index: " + index)
     
