@@ -5,6 +5,10 @@ function konamiCodeHandler(e) {
   console.log(code)
   console.log("KeyPress: " + key)
   
+  if(key === 16) {
+    e.preventDefault()
+  }
+  
 
   
   if (key === code[index]) {
