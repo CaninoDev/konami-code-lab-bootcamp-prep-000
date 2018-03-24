@@ -1,7 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 var index = 0
 function konamiCodeHandler(e) { 
-  console.log(index)
   var key = e.which
   console.log(code)
   console.log("KeyPress: " + key)
@@ -9,7 +8,7 @@ function konamiCodeHandler(e) {
   if (key === code[index]) {
     console.log("Index: " + index)
     
-    if (index === (code.length)) {
+    if (index === (code.length - 1)) {
       alert("Hurray")
       index = 0
     }
